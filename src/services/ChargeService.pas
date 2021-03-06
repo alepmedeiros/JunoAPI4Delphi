@@ -3,7 +3,7 @@ unit ChargeService;
 interface
 
 uses
-  JunoApi4Delphi.Interfaces, RESTRequest4D.Request, REST.Types, Charge,
+  JunoApi4Delphi.Interfaces, RESTRequest4D, REST.Types, Charge,
   System.JSON, REST.Json;
 
 type
