@@ -4,7 +4,7 @@ interface
 
 uses
   JunoApi4Delphi.Interfaces,
-  RESTRequest4D.Request,
+  RESTRequest4D,
   AuthorizationToken,
   REST.JSON,
   System.JSON;

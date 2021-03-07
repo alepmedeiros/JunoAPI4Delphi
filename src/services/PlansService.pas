@@ -40,7 +40,7 @@ type
 implementation
 
 uses
-  RESTRequest4D.Request, REST.Types, System.SysUtils;
+  RESTRequest4D, REST.Types, System.SysUtils;
 
 CONST
   PLAN_ENDPOINT = '/plans';

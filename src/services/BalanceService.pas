@@ -20,7 +20,7 @@ type
 implementation
 
 uses
-  RESTRequest4D.Request, System.JSON, System.SysUtils, Balance, REST.Json;
+  RESTRequest4D, System.JSON, System.SysUtils, Balance, REST.Json;
 
 CONST
   BALANCE_ENDPOINT = '/balance';

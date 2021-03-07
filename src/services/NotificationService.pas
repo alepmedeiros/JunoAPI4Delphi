@@ -6,7 +6,7 @@ uses
   JunoApi4Delphi.Interfaces,
   EventType,
   Webhook,
-  System.Generics.Collections, System.JSON, RESTRequest4D.Request,
+  System.Generics.Collections, System.JSON, RESTRequest4D,
   System.SysUtils, REST.Types, REST.Json;
 
 type

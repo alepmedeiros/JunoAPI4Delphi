@@ -43,7 +43,7 @@ type
 
 implementation
 
-uses Billing, Split, REST.Response.Adapter, RESTRequest4D.Request, REST.Types,
+uses Billing, Split, REST.Response.Adapter, RESTRequest4D, REST.Types,
   System.SysUtils;
 
 CONST
@@ -135,8 +135,6 @@ function TSubscriptionsService.GetSubscription(Value: String;
   dtValue: TDataSet): iSubscriptions;
 var
   lJSONObj : TJSONObject;
-  lJSONArray : TJSONArray;
-  jv : TJSONValue;
 
   lConv : TCustomJSONDataSetAdapter;
   lJSON : String;

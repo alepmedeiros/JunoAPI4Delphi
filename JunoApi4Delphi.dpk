@@ -34,7 +34,8 @@ requires
   bindcomp,
   FireDAC,
   FireDACCommonDriver,
-  FireDACCommon;
+  FireDACCommon,
+  RESTComponents;
 
 contains
   JunoApi4Delphi in 'src\JunoApi4Delphi.pas',

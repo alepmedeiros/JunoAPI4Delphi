@@ -9,12 +9,6 @@
         <Projects Include="sample\JunoApi4DelphiClient.dproj">
             <Dependencies/>
         </Projects>
-        <Projects Include="..\IntegracaoJuno\ExemploIntegracaoJuno.dproj">
-            <Dependencies/>
-        </Projects>
-        <Projects Include="..\IntegracaoJuno\Cliente\ExemploCliente.dproj">
-            <Dependencies/>
-        </Projects>
     </ItemGroup>
     <ProjectExtensions>
         <Borland.Personality>Default.Personality.12</Borland.Personality>
@@ -41,32 +35,14 @@
     <Target Name="JunoApi4DelphiClient:Make">
         <MSBuild Projects="sample\JunoApi4DelphiClient.dproj" Targets="Make"/>
     </Target>
-    <Target Name="ExemploIntegracaoJuno">
-        <MSBuild Projects="..\IntegracaoJuno\ExemploIntegracaoJuno.dproj"/>
-    </Target>
-    <Target Name="ExemploIntegracaoJuno:Clean">
-        <MSBuild Projects="..\IntegracaoJuno\ExemploIntegracaoJuno.dproj" Targets="Clean"/>
-    </Target>
-    <Target Name="ExemploIntegracaoJuno:Make">
-        <MSBuild Projects="..\IntegracaoJuno\ExemploIntegracaoJuno.dproj" Targets="Make"/>
-    </Target>
-    <Target Name="ExemploCliente">
-        <MSBuild Projects="..\IntegracaoJuno\Cliente\ExemploCliente.dproj"/>
-    </Target>
-    <Target Name="ExemploCliente:Clean">
-        <MSBuild Projects="..\IntegracaoJuno\Cliente\ExemploCliente.dproj" Targets="Clean"/>
-    </Target>
-    <Target Name="ExemploCliente:Make">
-        <MSBuild Projects="..\IntegracaoJuno\Cliente\ExemploCliente.dproj" Targets="Make"/>
-    </Target>
     <Target Name="Build">
-        <CallTarget Targets="JunoApi4Delphi;JunoApi4DelphiClient;ExemploIntegracaoJuno;ExemploCliente"/>
+        <CallTarget Targets="JunoApi4Delphi;JunoApi4DelphiClient"/>
     </Target>
     <Target Name="Clean">
-        <CallTarget Targets="JunoApi4Delphi:Clean;JunoApi4DelphiClient:Clean;ExemploIntegracaoJuno:Clean;ExemploCliente:Clean"/>
+        <CallTarget Targets="JunoApi4Delphi:Clean;JunoApi4DelphiClient:Clean"/>
     </Target>
     <Target Name="Make">
-        <CallTarget Targets="JunoApi4Delphi:Make;JunoApi4DelphiClient:Make;ExemploIntegracaoJuno:Make;ExemploCliente:Make"/>
+        <CallTarget Targets="JunoApi4Delphi:Make;JunoApi4DelphiClient:Make"/>
     </Target>
     <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
 </Project>
