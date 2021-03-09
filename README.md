@@ -20,6 +20,8 @@
 
 Adicione uma nova Unit no seu projeto seguindo o exemplo abaixo
 
+***Sandbox*
+
 ```pascal
 uses
   JunoApi4Delphi.Interfaces;
@@ -47,6 +49,37 @@ initialization
     .ClientSecret(ClientSecret)
     .ResourceToken(ResourceToken)
     .Sandbox;
+```
+
+* **Production**
+
+```pascal
+uses
+  JunoApi4Delphi.Interfaces;
+
+var
+  _JunoApi4Delphi : iJunoApi4DelphiManager;
+
+implementation
+
+uses
+  JunoApi4DelphiManager;
+
+const
+  //Informações encontradas na plataforma do juno em integrações
+  ClientId = 'ClientId';
+  ClientSecret = 'ClientSecret';
+  ResourceToken = 'ResourceToken';
+
+initialization
+  _JunoApi4Delphi := TJunoApi4DelphiManager.New;
+
+  _JunoApi4Delphi
+    .Config
+    .ClientId(ClientId)
+    .ClientSecret(ClientSecret)
+    .ResourceToken(ResourceToken)
+    .Production;
 ```
 
 ## Observação
