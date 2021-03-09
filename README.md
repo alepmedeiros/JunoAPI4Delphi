@@ -18,13 +18,7 @@
 
 ## ⚡️ Como utilizar
 
-Crie uma nova Unit e adicione nas uses JunoAPI4Delphi
-
-```pascal
-uses JunoAPI4Delphi.Interfaces;
-```
-
-**Ficando desta forma**
+Adicione uma nova Unit no seu projeto seguindo o exemplo abaixo
 
 ```pascal
 uses
