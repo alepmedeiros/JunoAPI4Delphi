@@ -1,6 +1,6 @@
 ﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
     <PropertyGroup>
-        <ProjectGuid>{DFFA6C2B-4B24-415E-BC82-EAE28345FA89}</ProjectGuid>
+        <ProjectGuid>{9FB7C956-AB09-4F8E-8547-912BB094BFEB}</ProjectGuid>
     </PropertyGroup>
     <ItemGroup>
         <Projects Include="JunoApi4Delphi.dproj">

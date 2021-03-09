@@ -4,7 +4,7 @@ interface
 
 uses
   Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
-  Vcl.Controls, Vcl.Forms, Vcl.Dialogs,  Vcl.StdCtrls, Banks, companytype,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs,  Vcl.StdCtrls,
   Data.DB, Vcl.Grids, Vcl.DBGrids, Datasnap.DBClient;
 
 type
@@ -65,7 +65,7 @@ implementation
 
 {$R *.dfm}
 
-uses JunoApi4Delphi, EventType;
+uses JunoApi4Delphi, EventType, CompanyType, Banks;
 
 
 procedure TForm1.Button11Click(Sender: TObject);

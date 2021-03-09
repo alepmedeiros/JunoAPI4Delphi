@@ -5,7 +5,8 @@ interface
 uses
   JunoApi4Delphi.Interfaces;
 
-var _JunoApi4Delphi : iJunoApi4DelphiManager;
+var
+  _JunoApi4Delphi : iJunoApi4DelphiManager;
 
 implementation
 
