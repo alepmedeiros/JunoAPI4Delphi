@@ -1,6 +1,6 @@
 <p align="center">
-  <a href="https://github.com/alepmedeiros/JunoAPI4Delphi/tree/master/imagens/logo.png">
-    <img alt="Juno" height="150" src="https://github.com/alepmedeiros/JunoAPI4Delphi/tree/master/imagens/logo.png">
+  <a href="https://github.com/alepmedeiros/JunoAPI4Delphi/blob/master/imagens/logo.png">
+    <img alt="Juno" height="150" src="https://github.com/alepmedeiros/JunoAPI4Delphi/blob/master/imagens/logo.png">
   </a>  
 </p><br>
 <p align="center">
