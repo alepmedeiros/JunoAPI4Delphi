@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://github.com/alepmedeiros/JunoAPI4Delphi/tree/master/imagens/logo.svg">
-    <img alt="Horse" height="150" src="https://github.com/alepmedeiros/JunoAPI4Delphi/tree/master/imagens/logo.svg">
+    <img alt="Juno" height="150" src="https://github.com/alepmedeiros/JunoAPI4Delphi/tree/master/imagens/logo.svg">
   </a>  
 </p><br>
 <p align="center">
