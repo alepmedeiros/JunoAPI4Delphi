@@ -21,7 +21,7 @@
 Crie uma nova Unit e adicione nas uses JunoAPI4Delphi
 
 ```pascal
-uses JunoAPI4Delphi;
+uses JunoAPI4Delphi.Interfaces;
 ```
 
 **Ficando desta forma**
