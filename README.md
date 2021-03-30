@@ -1,6 +1,6 @@
 <p align="center">
-  <a href="https://github.com/alepmedeiros/JunoAPI4Delphi/blob/master/imagens/logo.png">
-    <img alt="Juno" height="150" src="https://github.com/alepmedeiros/JunoAPI4Delphi/blob/master/imagens/logo.png">
+  <a href="https://github.com/alepmedeiros/Juno4D/blob/master/imagens/logo.png">
+    <img alt="Juno" height="150" src="https://github.com/alepmedeiros/Juno4D/blob/master/imagens/logo.png">
   </a>  
 </p><br>
 <p align="center">
@@ -24,15 +24,15 @@ Adicione uma nova Unit no seu projeto seguindo o exemplo abaixo
 
 ```pascal
 uses
-  JunoApi4Delphi.Interfaces;
+  Juno4D.Interfaces;
 
 var
-  _JunoApi4Delphi : iJunoApi4DelphiManager;
+  _Juno4D : iJuno4DManager;
 
 implementation
 
 uses
-  JunoApi4DelphiManager;
+  Juno4DManager;
 
 const
   //Informações encontradas na plataforma do juno em integrações
@@ -41,9 +41,9 @@ const
   ResourceToken = 'ResourceToken';
 
 initialization
-  _JunoApi4Delphi := TJunoApi4DelphiManager.New;
+  _Juno4D := TJuno4DManager.New;
 
-  _JunoApi4Delphi
+  _Juno4Delphi
     .Config
     .ClientId(ClientId)
     .ClientSecret(ClientSecret)
@@ -55,15 +55,15 @@ initialization
 
 ```pascal
 uses
-  JunoApi4Delphi.Interfaces;
+  Juno4D.Interfaces;
 
 var
-  _JunoApi4Delphi : iJunoApi4DelphiManager;
+  _Juno4De : iJuno4DManager;
 
 implementation
 
 uses
-  JunoApi4DelphiManager;
+  Juno4DManager;
 
 const
   //Informações encontradas na plataforma do juno em integrações
@@ -72,9 +72,9 @@ const
   ResourceToken = 'ResourceToken';
 
 initialization
-  _JunoApi4Delphi := TJunoApi4DelphiManager.New;
+  _Juno4D := TJuno4DManager.New;
 
-  _JunoApi4Delphi
+  _Juno4D
     .Config
     .ClientId(ClientId)
     .ClientSecret(ClientSecret)
